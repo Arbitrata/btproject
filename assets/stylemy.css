@@ -1,0 +1,114 @@
+.homepage{
+	display: flex;
+	justify-content: space-around;
+}
+.hire{
+	justify-content: space-around;
+}
+.hire a{
+	text-decoration: none;
+}
+.hire a:hover{
+	color: blue;
+}
+.project{
+	width: 350px;
+	background-color: grey;
+	height: 380px;
+	padding:10px 5px 20px 20px ;
+	border-radius: 20px;
+display: block;
+}
+.project ul{
+	
+}
+.project ul li{
+	text-decoration: none;
+	padding-top: 5px;
+	list-style: none;
+
+}
+.project ul li a{
+	text-decoration: none;
+	color: blue;
+	font-size: 20px;
+}
+.project ul li a:hover{
+	color: white;
+	background-color: black;
+	border-radius: 10PX;
+}
+.skills{
+	background-color: gray;
+
+	
+}
+.skills ul li{
+	font-size: 18px;
+	padding-top: 0px;
+	list-style: disc;
+}
+
+.portfoliopage{
+	background-color:;
+	
+}
+.portfolio{
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+	text-align: center;	
+	line-height: 30px;
+	border-radius: 30px;
+	display: block;
+}
+.portfolio a{
+	text-decoration: none;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	color: white;
+	
+	}
+	.portfolio a:hover{
+		color:black;
+	
+		}
+.social{
+	width: fit-content;
+	justify-content: space-around;
+padding-top: 50px;
+}
+.social li{
+	
+text-decoration: none;
+display: inline-block;
+padding-top: 15px;
+
+}
+.social li a{
+	display: inline-block;
+	text-align: center;
+	padding-left: 30px;
+
+}
+.social li a img{
+	height: 40px;
+	width: 40px;
+	text-align: center;
+
+}
+
+.projo table tr{
+	border-radius: 10%;
+	
+}
+@media (max-width:600px) {	
+	.homepage{
+		display: block;
+	}
+	.projo table{
+		display: block;
+		
+	}
+	
+}
