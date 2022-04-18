@@ -1,6 +1,12 @@
 .homepage{
-	display: flex;
+	padding: 20px;
+	margin: 20px;
+	background-color: lavender;
+	display: block;
 	justify-content: space-around;
+}
+.my-div{
+	width: 100%;height: fit-content;display: flex;padding: 10px;justify-content: space-around;
 }
 .hire{
 	justify-content: space-around;
@@ -18,10 +24,13 @@
 	padding:10px 5px 20px 20px ;
 	border-radius: 20px;
 display: block;
+border-bottom: 10px solid;
 }
-.project ul{
-	
+.my-profile{
+	padding: 35px 30px 20px 30px ;
 }
+
+
 .project ul li{
 	text-decoration: none;
 	padding-top: 5px;
@@ -29,7 +38,8 @@ display: block;
 
 }
 .project ul li a{
-	text-decoration: none;
+	padding: 3px;
+	text-decoration: underline;
 	color: blue;
 	font-size: 20px;
 }
@@ -49,10 +59,7 @@ display: block;
 	list-style: disc;
 }
 
-.portfoliopage{
-	background-color:;
-	
-}
+
 .portfolio{
 	width: 100px;
 	height: 30px;
@@ -74,19 +81,23 @@ display: block;
 	
 		}
 .social{
-	width: fit-content;
+	padding: 10px;
+	width: 100%;
+align-items: center;
+	background-color: black;
 	justify-content: space-around;
-padding-top: 50px;
+padding-top: 20px;
+height:fit-content;
 }
 .social li{
 	
 text-decoration: none;
 display: inline-block;
-padding-top: 15px;
+
 
 }
 .social li a{
-	display: inline-block;
+
 	text-align: center;
 	padding-left: 30px;
 
@@ -94,7 +105,8 @@ padding-top: 15px;
 .social li a img{
 	height: 40px;
 	width: 40px;
-	text-align: center;
+border-radius: 50%;
+border: 1px solid red;
 
 }
 
@@ -102,9 +114,43 @@ padding-top: 15px;
 	border-radius: 10%;
 	
 }
-@media (max-width:600px) {	
+
+
+
+
+
+@media  (max-width:500px) {	
 	.homepage{
+		padding: 5px;
+		margin: 5px;
+		background-color: lavender;
 		display: block;
+		justify-content: space-around;
+	}
+	
+	.my-div{
+		display: block;
+		
+	}
+	.projo table{
+		display: block;
+		
+	}
+	
+}
+
+@media  (max-width:821px) {	
+	.homepage{
+		padding: 5px;
+		margin: 5px;
+		background-color: lavender;
+		display: block;
+		justify-content: center;
+	}
+	
+	.my-div{
+		display: block;
+		
 	}
 	.projo table{
 		display: block;
