@@ -1,3 +1,6 @@
+*{
+	background: scroll;
+}
 .homepage{
 	padding: 20px;
 	margin: 20px;
@@ -6,7 +9,10 @@
 	justify-content: space-around;
 }
 .my-div{
-	width: 100%;height: fit-content;display: flex;padding: 10px;justify-content: space-around;
+	height: fit-content;
+	display: flex;
+	padding: 10px;
+	justify-content: space-around;
 }
 .hire{
 	justify-content: space-around;
@@ -121,8 +127,8 @@ border: 1px solid red;
 
 @media  (max-width:500px) {	
 	.homepage{
-		padding: 5px;
-		margin: 5px;
+		padding:0%;
+		margin:0% ;
 		background-color: lavender;
 		display: block;
 		justify-content: space-around;
@@ -130,7 +136,7 @@ border: 1px solid red;
 	
 	.my-div{
 		display: block;
-		
+		padding: 0%;
 	}
 	.projo table{
 		display: block;
